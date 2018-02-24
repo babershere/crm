@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./components/Home";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/NavBar";
 // employee components
-import EmployeeHome from "./components/employees/EmployeeHome";
-import EmployeeAdd from "./components/employees/EmployeeAdd";
-import EmployeeEdit from "./components/employees/EmployeeEdit";
-import EmployeeView from "./components/employees/EmployeeView";
+import EmployeeHome from "./components/Employees/EmployeeHome";
+import EmployeeAdd from "./components/Employees/EmployeeAdd";
+import EmployeeEdit from "./components/Employees/EmployeeEdit";
+import EmployeeView from "./components/Employees/EmployeeView";
 
 
-import logo from './logo.svg';
+
 import './App.css';
 
 class App extends Component {

@@ -3,6 +3,7 @@ const bodyParser = require("body-parser");
 const models = require("./app_api/models");
 const PORT = process.env.PORT || 3001;
 const app = express();
+const axios = require("axios")
 const apiRoutes = require("./app_api/routes/index.routes");
 
 app.use(bodyParser.urlencoded({ extended: false }));
